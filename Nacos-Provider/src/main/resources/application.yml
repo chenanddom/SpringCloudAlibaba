@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: nacos-provider-demo
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+#        namespace: DEFAULT_GROUP
+#        endpoint: acm.aliyun.com
+#        access-key: LTAI2MKeFgsI5Qci
+#        secret-key: X8ixkSKeKDPI5uofVuZWZfmahu6Z87
+server:
+  port: 8061
